@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBOutlet weak var outputLabel: UILabel! // これがLabelとプログラムの関連付けコード
+    
 }
 
