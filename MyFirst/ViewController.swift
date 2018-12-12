@@ -13,9 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        outputLabel.text = "Hello world!"
     }
 
-    @IBOutlet weak var outputLabel: UILabel! // これがLabelとプログラムの関連付けコード
+    // これがLabelとプログラムの関連付けコード
+    @IBOutlet weak var outputLabel: UILabel!
     
 }
 
